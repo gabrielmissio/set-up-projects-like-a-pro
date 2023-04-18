@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "dotenv": "^16.0.3"
+  },
+  "scripts": {
+    "dev": "IS_LOCALHOST=true node main/index.js",
+    "start": "IS_LOCALHOST=false node main/index.js"
+  }
+}
