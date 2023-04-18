@@ -17,13 +17,6 @@ npm pkg set scripts.prepare="husky install"
 npm run prepare
 ```
 
-Now, let's add an "prepare" script in your package.json:
-
-```Bash
-npm pkg set scripts.prepare="husky install"
-npm run prepare
-```
-
 Finnaly, it's time to setup your "pre-commit" hook
 
 ```Bash
