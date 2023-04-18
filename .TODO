@@ -1,0 +1,8 @@
+API
+ - add "mongo-express" to docker-compose services
+ - add validations to routes
+ - add "README.md"
+ - add tests
+
+Collections
+ - add "setup-a-project-like-a-pro.postman_environment"
