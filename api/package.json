@@ -3,8 +3,8 @@
     "dotenv": "^16.0.3"
   },
   "scripts": {
-    "dev": "IS_LOCALHOST=true node main/index.js",
-    "start": "IS_LOCALHOST=false node main/index.js"
+    "dev": "IS_LOCALHOST=true node src/main/index.js",
+    "start": "IS_LOCALHOST=false node src/main/index.js"
   },
   "dependencies": {
     "express": "^4.18.2",
