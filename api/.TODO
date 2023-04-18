@@ -1,3 +1,4 @@
  - add "mongo-express" to docker-compose services
  - add validations to routes
+ - add "README.md"
  - add tests
