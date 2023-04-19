@@ -2,8 +2,9 @@
 
 Docker Compose is a tool that allows you to define and run multi-container Docker applications. With Docker Compose, you can configure and start multiple containers that are part of your application, and manage their dependencies and networking.
 
-Running a local development database with Docker Compose
-One of the most common use cases for Docker Compose is running a local development database. For example, if your application uses MongoDB, you can use Docker Compose to start a MongoDB container and connect your application to it.
+## Running a local development database with Docker Compose
+
+One common use case for Docker Compose is running a local development database. For example, if your application uses MongoDB, you can use Docker Compose to start a MongoDB container and connect your application to it.
 
 To do this, you need to create a docker-compose.yml file in the root directory of your project. Here's an example configuration for a MongoDB container:
 
