@@ -2,7 +2,7 @@
 
 ## Summary
 
-- [npm](./media/webinar/01-npm.md)
+- [NPM](./media/webinar/01-npm.md)
 - [Linting](./media/webinar/02-linting.md)
 - [Git Hooks](./media/webinar/03-git-hooks.md)
 - [Lint Staged](./media/webinar/04-lint-staged.md)
