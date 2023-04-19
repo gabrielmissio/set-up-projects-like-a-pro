@@ -1,6 +1,9 @@
 # Fast setup
 
-1. Create a new package. Create .gitignore file. Add "node_modules" folder to .gitinore. Install ESLint, Husky and Lint-staged as devDependencies
+1. Create package.json. ("y" flag tells the generator to use the defaults instead of asking questions.)
+2. Create .gitignore file.
+3. Add "node_modules" to .gitinore.
+4. Install ESLint, Husky and Lint-staged as devDependencies
 
 ```Bash
 npm init -y
@@ -11,13 +14,15 @@ echo 'node_modules' > .gitignore
 npm i -D eslint husky lint-staged
 ```
 
-2. Initialize eslint configuration
+5. Initialize eslint configuration
 
 ```Bash
 npm init @eslint/config
 ```
 
-3. Add "lint" and "prepare" scripts to package.json scripts. Setup Lint-staged. Setup Husky "pre-commit" git hook.
+6. Add "lint" and "prepare" scripts to package.json scripts.
+7. Setup Lint-staged.
+8. Setup Husky "pre-commit" git hook.
 
 ```Bash
 npm pkg set scripts.lint="npx eslint"
