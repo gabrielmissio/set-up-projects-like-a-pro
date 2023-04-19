@@ -2,8 +2,6 @@
 
 ## Summary
 
-We will cover the following topics:
-
 - [npm](./media/webinar/01-npm.md)
 - [Linting](./media/webinar/02-linting.md)
 - [Git Hooks](./media/webinar/03-git-hooks.md)
