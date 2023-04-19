@@ -12,7 +12,7 @@ We will cover the following topics:
 - [Environment Variables](./media/webinar/06-environment-variables.md)
 - [Clean Architecture](./media/webinar/07-clean-architecture.md)
 - [Postman Collection](./media/webinar/08-postman-collection.md)
-- [Docker-Compose (Local Database Setup)](./media/webinar/10-docker-compose.md)
+- [Docker-Compose (Local Database Setup)](./media/webinar/09-docker-compose.md)
 - [Seeds](./media/webinar/10-seeds.md)
 
 ## Fast Setup
