@@ -17,8 +17,6 @@
 
 Are you in a hurry? Use some scripts to quickly set up your project. Check out the [Fast Setup](./media/webinar/fast-setup.md) guide for more information.
 
-[Fast Setup](./media/webinar/fast-setup.md) guide for more information.
-
 ## NPM (Node Package Manager)
 
 NPM is a package manager for the JavaScript ecosystem. It allows you to install, manage, and share packages of JavaScript code that can be used in Node.js projects. You can use it to manage dependencies, run scripts, and define important project details.
