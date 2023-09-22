@@ -46,7 +46,7 @@ This command will download and install all dependencies listed in the "dependenc
 To install only "dependencies" you can run the following command:
 
 ```Bash
-npm install --production --no-optional
+npm install --omit=dev
 ```
 
 ## Linting
