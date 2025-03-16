@@ -26,13 +26,11 @@ npm init @eslint/config
 
 ```Bash
 npm pkg set scripts.lint="npx eslint"
-npm pkg set scripts.prepare="husky install"
-
+npx husky init
 touch .lintstagedrc
 echo '{
   "*.js": "npm run lint"
 }' > .lintstagedrc
 
-npm run prepare
 npx husky add .husky/pre-commit "npx lint-staged"
 ```

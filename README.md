@@ -106,11 +106,10 @@ npm install -D husky
 After installing Husky, let's add an "prepare" script in your package.json:
 
 ```Bash
-npm pkg set scripts.prepare="husky install"
-npm run prepare
+npx husky init
 ```
 
-Finnaly, it's time to setup your "pre-commit" hook
+Finnaly, it's time to setup your "pre-commit" hook (overwrite default script)
 
 ```Bash
 npx husky add .husky/pre-commit "npx eslint ."
@@ -178,10 +177,10 @@ The .env file is a simple text file that contains key-value pairs of environment
 
 To use the .env file in your app, you can use the dotenv library. dotenv reads the contents of your .env file and sets the environment variables automatically.
 
-To use .env file in your project, you need to install it dotenv as a development dependency:
+To use .env file in your project, you need to install it dotenvx as a devDependency:
 
 ```Bash
-npm install -D dotenv
+npm install -D @dotenvx/dotenvx
 ```
 
 For example, if you have the following .env file:
@@ -194,7 +193,17 @@ API_KEY=1234567890abcdef
 You can load its contents in your Node.js app like this:
 
 ```Javascript
-if (process.env.IS_LOCALHOST) require('dotenv').config();
+// CommonJS
+require('@dotenvx/dotenvx').config();
+
+// ESM
+import '@dotenvx/dotenvx/config';
+```
+
+However, a cleaner and more flexible approach is to inject environment variables without modifying your code by running:
+
+```bash
+dotenvx run -- node demo-file.js
 ```
 
 After this call, you can access the variables from the process.env object as usual:
