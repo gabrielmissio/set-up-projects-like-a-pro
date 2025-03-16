@@ -175,7 +175,7 @@ To set environment variables, you can use the command line or a .env file.
 
 The .env file is a simple text file that contains key-value pairs of environment variables. It is not meant to be checked into version control, as it may contain sensitive information like passwords and API keys.
 
-To use the .env file in your app, you can use the dotenv library. dotenv reads the contents of your .env file and sets the environment variables automatically.
+To use the .env file in your app, you can use the dotenvx library. dotenvx reads the contents of your .env file and sets the environment variables automatically **(it's an improved alternative to dotenv, recommended by the creator of dotenv**).
 
 To use .env file in your project, you need to install it dotenvx as a devDependency:
 
