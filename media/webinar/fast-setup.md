@@ -1,5 +1,7 @@
 # 🚀 Fast setup
 
+📖 This document is also available in [Portuguese (Brazil)](./fast-setup-pt-br.md)
+
 ## 💡 The Quickest Way (Recommended)
 
 If you want to set up everything automatically, just run:
