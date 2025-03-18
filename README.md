@@ -1,5 +1,7 @@
 # Set Up Projects Like a Pro
 
+📖 This document is also available in [Portuguese (Brazil)](./README-pt-br.md)
+
 ## Summary
 
 - [NPM](#npm-node-package-manager)
